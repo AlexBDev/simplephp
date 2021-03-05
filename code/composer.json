@@ -1,0 +1,27 @@
+{
+  "name": "alexbdev/simplephp",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexis Bussières",
+      "email": "bussieres.alexis.dev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Unit\\": "tests/unit/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
